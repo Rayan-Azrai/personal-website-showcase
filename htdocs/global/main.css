@@ -1,0 +1,574 @@
+/* main.css */
+
+/* Container for the main image */
+.gallery-main img.main-img {
+    max-height: 600px;  /* Adjust as needed */
+    width: auto;
+    height: auto;
+    border: 2px solid #444;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Main image: show it at a larger size */
+.gallery-main img.main-img {
+    width: 500px;  /* Adjust as needed */
+    height: auto;
+    border: 2px solid #444;
+}
+
+/* Next/Prev Buttons */
+button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* Thumbnails container */
+.gallery-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.section-wrapper {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+    color: #ff914d;
+    margin-bottom: 1rem;
+  }
+  
+  .intro-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 0.75rem;
+    border: 1px solid #ff914d;
+    color: #eee;
+  }
+  
+  .styled-table th {
+    background-color: #222;
+    color: #ff914d;
+  }
+  
+
+
+/* Thumbnails: same file, but forcibly shrunk */
+.thumb {
+    width: 150px;   /* Adjust for desired thumbnail size */
+    height: 150px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumb:hover {
+    border-color: #bbb;
+}
+
+.logo {
+    display: block;
+    margin: 1rem auto 0 auto; /* top, right/left, bottom */
+    width: 300px;
+    height: auto;
+}
+
+.home_intro {
+    text-align: center;
+    max-width: 800px;
+    padding: 1rem;
+    margin: 1rem auto 2rem auto;
+}
+
+.gallery-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #e0e0e0;
+}
+
+.meal_planner {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.meal_planner table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    color: #e0e0e0;
+    background-color: #1e1e1e;
+}
+
+.meal_planner th,
+.meal_planner td {
+    border: 1px solid #ff944d;
+    padding: 0.5rem 1rem;
+}
+
+.meal_planner th {
+    background-color: #2a2a2a;
+    color: #ff944d;
+}
+
+.video-section {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.video-section object {
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid #ff944d;
+    border-radius: 8px;
+}
+
+.recipe_card {
+    background-color: #1a1a1a;
+    border: 1px solid #ff944d;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
+    max-width: 800px;
+    color: #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.recipe_card h3 {
+    color: #ff944d;
+    margin-bottom: 0.5rem;
+}
+
+.recipe_card p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+    text-align: left;
+}
+
+main > h2 {
+    text-align: center;
+    color: #ff944d;
+    margin-top: 2rem;
+}
+
+.db_caption {
+    text-align: center;
+}
+
+.feedback_form {
+    background-color: #1a1a1a;
+    border: 1px solid #ff944d;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 700px;
+    color: #e0e0e0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.feedback_form h2 {
+    text-align: center;
+    color: #ff944d;
+}
+
+.feedback_form p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.feedback_form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+fieldset {
+    border: 1px solid #ff944d;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+legend {
+    color: #ff944d;
+    padding: 0 0.5rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0 0.25rem;
+}
+
+.radio_group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 0.5rem;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #ff944d;
+    color: #121212;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffa65c;
+}
+
+.resume_section {
+    max-width: 900px;
+    margin: 2rem auto;
+    text-align: center;
+    color: #e0e0e0;
+  }
+  
+  .resume_section h2 {
+    color: #ff944d;
+    margin-bottom: 1rem;
+  }
+  
+  .resume_section p {
+    margin-bottom: 1.5rem;
+    color: #ccc;
+  }
+  
+  .resume_container {
+    border: 1px solid #ff944d;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .credits_section {
+    text-align: center;
+    color: #e0e0e0;
+    margin-top: 2rem;
+}
+
+.credit_intro {
+    font-size: 1.2rem;
+    color: #ff944d;
+    margin-bottom: 1.5rem;
+}
+
+.chef_name a{
+     color: #bb86fc;
+     text-decoration: none;
+}
+
+.chef_name a:hover{
+text-decoration: underline;
+}
+
+/* About the Chef Section */
+.about_chef {
+    max-width: 900px;
+    margin: 2rem auto;
+    text-align: center;
+    color: #e0e0e0;
+  }
+  
+  .about_chef h2 {
+    color: #ff944d;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .chef_profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .chef_portrait {
+    width: 300px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid #ff944d;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about_container {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+    line-height: 1.6;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  
+/* Contact page layout */
+.contact_section {
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #1a1a1a; /* optional: match section backgrounds */
+    color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .contact_section a {
+    color: #b983ff; /* match link color from other pages */
+    text-decoration: underline;
+  }
+  
+
+/* ============================== */
+/* Universal Layout & Styling Additions */
+/* ============================== */
+
+/* Center the site content and set a max width */
+@media screen {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+    
+}
+
+
+/* Center the header text */
+header h1 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top: -0.5rem;
+}
+
+/* the navigation */
+/* Modernized Navigation Bar with Brand Colors */
+.nav {
+  background-color: #121212; /* keep your dark theme */
+  padding: 0.5rem 0;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 0.15rem; /* space between items */
+}
+
+.nav ul li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav ul li a {
+  color: #ff944d; /*  orange */
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  transition: color 0.3s ease;
+  max-width: 150px;
+}
+
+.nav ul li a:hover {
+  color: #ffffff; /* white on hover */
+  background-color: #1e1e1e; /* subtle hover box */
+  border-radius: 4px;
+}
+
+/* Footer and header background for contrast */
+header, footer {
+    background-color: transparent;
+    padding: 1rem 0;
+}
+
+
+/* Optional: Form elements (if any on your pages) */
+input, select, textarea {
+    background-color: #2a2a2a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+input[type=submit], button {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+input[type=submit]:hover, button:hover {
+    background-color: #444;
+}
+
+.footer_divider {
+    border: none;
+    height: 1px;
+    background-color: #444;
+    margin: 3rem auto 2rem auto;
+    width: 90%;
+    max-width: 1000px;
+    opacity: 0.6;
+  }
+  
+  .site_footer {
+    text-align: center;
+    font-size: 0.95rem;
+    color: #ccc;
+    padding: 1rem 0 2rem;
+    background-color: transparent;
+  }
+  
+  .site_footer a {
+    color: #bb86fc;
+    text-decoration: none;
+  }
+  
+  .site_footer a:hover {
+    text-decoration: underline;
+  }
+  /* === Feedback Form Styles === */
+.feedback-form {
+    max-width: 900px;
+    margin: 2rem auto;
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    color: #f0f0f0;
+  }
+  
+  .feedback-form h2 {
+    text-align: center;
+    color: #ff944d;
+    margin-bottom: 1rem;
+  }
+  
+  fieldset {
+    border: 1px solid #ff944d;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  legend {
+    color: #ff944d;
+    font-weight: bold;
+    padding: 0 0.5rem;
+  }
+  
+  label {
+    display: block;
+    margin: 0.8rem 0 0.3rem;
+    font-size: 1rem;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  
+  .radio-group,
+  .checkbox-group {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  button[type="submit"] {
+    background-color: #ff944d;
+    color: #121212;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffa65c;
+  }
+  
+  .error {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .success {
+    text-align: center;
+    color: #7CFC00;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  #formErrors ul {
+    list-style: none;
+    background: #440000;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid red;
+    border-radius: 6px;
+  }
+  
+  #formErrors li {
+    color: #fff0f0;
+    margin: 0.3rem 0;
+  }
+  

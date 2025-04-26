@@ -1,0 +1,16 @@
+#formErrors ul {
+    padding: 0.5rem;
+    background-color: #ffe0e0;
+    border: 1px solid #f44336;
+    list-style: none;
+    margin-bottom: 1rem;
+  }
+  
+  #formErrors li {
+    margin: 0.3rem 0;
+  }
+  
+  input:invalid, select:invalid, textarea:invalid {
+    border: 1px solid red;
+  }
+  
