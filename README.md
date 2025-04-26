@@ -29,6 +29,10 @@ This project showcases a fully functional, dynamic website developed as part of 
 - Database integration for dynamic data display
 - Accessible and SEO-friendly structure
 
+## 🌐 Live Preview
+You can view a live version of this project here:  
+👉 [Visit Resume Page](http://rayanazcooking.online/pages/resume.php)
+
 ## 🖥️ How to Run Locally
 1. Place the project inside your local server’s web root (e.g., XAMPP `htdocs` directory).
 2. Start Apache and MySQL from your server management panel.
