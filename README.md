@@ -31,7 +31,7 @@ This project showcases a fully functional, dynamic website developed as part of 
 
 ## 🌐 Live Preview
 You can view a live version of this project here:  
-👉 [Visit Resume Page](http://rayanazcooking.online/pages/home.php)
+👉 [Visit WebPage](http://rayanazcooking.online/pages/home.php)
 
 ## 🖥️ How to Run Locally
 1. Place the project inside your local server’s web root (e.g., XAMPP `htdocs` directory).
